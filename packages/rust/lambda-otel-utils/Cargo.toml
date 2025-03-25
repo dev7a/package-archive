@@ -1,13 +1,13 @@
 [package]
 name = "lambda-otel-utils"
-version = "0.3.0"
+version = "0.3.1"
 edition.workspace = true
 authors.workspace = true
 license.workspace = true
 rust-version.workspace = true
-description = "OpenTelemetry utilities for AWS Lambda"
-repository = "https://github.com/dev7a/serverless-otlp-forwarder/tree/main/packages/rust/lambda-otel-utils"
-homepage = "https://github.com/dev7a/serverless-otlp-forwarder"
+description = "OpenTelemetry utilities for AWS Lambda (DEPRECATED)"
+repository = "https://github.com/dev7a/package-archive/tree/main/packages/rust/lambda-otel-utils"
+homepage = "https://github.com/dev7a/package-archive"
 keywords = ["opentelemetry", "otlp", "aws", "lambda", "telemetry"]
 categories = ["development-tools::debugging", "development-tools::profiling"]
 

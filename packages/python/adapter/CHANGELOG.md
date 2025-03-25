@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.3.1 (2025-03-25)
+
+### Deprecated
+
+- Package is now deprecated and will no longer be maintained
+- Added deprecation notice to README.md recommending [otlp-stdout-span-exporter](https://pypi.org/project/otlp-stdout-span-exporter/) as an alternative solution with similar functionality
+- Added "Development Status :: 7 - Inactive" classifier
+- Updated package description to indicate deprecation 
+
 ## [0.3.0] - 2024-12-16
 
 ### Changed
@@ -31,4 +40,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Full documentation in README.md
 
 ### Notes
-- While the OpenTelemetry specification supports both JSON and Protobuf over HTTP, the Python SDK currently only supports Protobuf (see [opentelemetry-python#1003](https://github.com/open-telemetry/opentelemetry-python/issues/1003)) 
+- While the OpenTelemetry specification supports both JSON and Protobuf over HTTP, the Python SDK currently only supports Protobuf (see [opentelemetry-python#1003](https://github.com/open-telemetry/opentelemetry-python/issues/1003))

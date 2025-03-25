@@ -1,9 +1,10 @@
 {
   "name": "@dev7a/otlp-stdout-exporter",
-  "version": "0.3.0",
-  "description": "OpenTelemetry OTLP exporter that writes to stdout",
+  "version": "0.3.1",
+  "description": "OpenTelemetry OTLP exporter that writes to stdout (DEPRECATED)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "deprecated": "This package is deprecated. Please consider @dev7a/otlp-stdout-span-exporter for similar functionality with an improved API.",
   "files": [
     "dist",
     "README.md",
@@ -32,10 +33,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dev7a/serverless-otlp-forwarder.git",
+    "url": "git+https://github.com/dev7a/package-archive.git",
     "directory": "packages/node/exporter"
   },
-  "homepage": "https://github.com/dev7a/serverless-otlp-forwarder/tree/main/packages/node/exporter",
+  "homepage": "https://github.com/dev7a/package-archive/tree/main/packages/node/exporter",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"

@@ -1,4 +1,8 @@
-# otlp-stdout-client
+# [DEPRECATED] otlp-stdout-client
+
+> **IMPORTANT: This package is deprecated and no longer maintained.**
+> 
+> For similar functionality with an improved API, please consider using [otlp-stdout-span-exporter](https://crates.io/crates/otlp-stdout-span-exporter). While not a direct replacement (APIs differ), it solves the same problems with a more modern implementation.
 
 The `otlp-stdout-client` library is designed to export OpenTelemetry data to stdout in a formatted JSON structure, suitable for serverless environments like AWS Lambda. It implements the `opentelemetry_http::HttpClient` interface and can be used in an OpenTelemetry OTLP pipeline to send OTLP data (both JSON and Protobuf formats) to stdout.
 

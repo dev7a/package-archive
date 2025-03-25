@@ -1,4 +1,8 @@
-# @dev7a/otlp-stdout-exporter
+# [DEPRECATED] @dev7a/otlp-stdout-exporter
+
+> **IMPORTANT: This package is deprecated and no longer maintained.**
+> 
+> For similar functionality with an improved API, please consider using [@dev7a/otlp-stdout-span-exporter](https://www.npmjs.com/package/@dev7a/otlp-stdout-span-exporter). While not a direct replacement (APIs differ), it solves the same problems with a more modern implementation.
 
 OpenTelemetry OTLP exporter that writes to stdout: the telemetry data is serialized using OTLP JSON or Protobuf encoding, and then written to stdout within a structured JSON object.
 In a AWS Lambda serverless environment, the data is captured by CloudWatch and can be consumed by the Serverless OTLP Forwarder, to be forwarded to a OTEL collector or your telemetry platform.

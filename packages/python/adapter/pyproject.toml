@@ -4,12 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "otlp-stdout-adapter"
-version = "0.3.0"
-description = "A custom requests HTTPAdapter that serializes spans to stdout for OpenTelemetry OTLP exporters"
+version = "0.3.1"
+description = "A custom requests HTTPAdapter that serializes spans to stdout for OpenTelemetry OTLP exporters (DEPRECATED)"
 readme = "README.md"
 authors = [{name = "Alessandro Bologna", email = "alessandro.bologna@gmail.com"}]
 license = {file = "LICENSE"}
 classifiers = [
+    "Development Status :: 7 - Inactive",
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
@@ -32,8 +33,8 @@ dependencies = [
 requires-python = ">=3.12"
 
 [project.urls]
-Homepage = "https://github.com/dev7a/serverless-otlp-forwarder/tree/main/packages/python/adapter"
-Repository = "https://github.com/dev7a/serverless-otlp-forwarder/tree/main/packages/python/adapter"
+Homepage = "https://github.com/dev7a/package-archive/tree/main/packages/python/adapter"
+Repository = "https://github.com/dev7a/package-archive/tree/main/packages/python/adapter"
 
 [tool.setuptools]
 include-package-data = true

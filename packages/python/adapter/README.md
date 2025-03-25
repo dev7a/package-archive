@@ -1,4 +1,9 @@
-# OTLP Stdout Adapter
+# [DEPRECATED] OTLP Stdout Adapter
+
+> **IMPORTANT: This package is deprecated and no longer maintained.**
+> 
+> For similar functionality with an improved API, please consider using [otlp-stdout-span-exporter](https://pypi.org/project/otlp-stdout-span-exporter/). While not a direct replacement (APIs differ), it solves the same problems with a more modern implementation.
+>
 
 The `otlp-stdout-adapter` library is designed to export OpenTelemetry data to stdout in a formatted JSON structure, suitable for serverless environments like AWS Lambda. It implements a custom HTTP adapter that can be used with OpenTelemetry OTLP exporters to send telemetry data to stdout.
 

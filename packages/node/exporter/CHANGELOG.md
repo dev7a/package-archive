@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.1 (2025-03-25)
+
+### Deprecated
+
+- Package is now deprecated and will no longer be maintained
+- Added deprecation notice to README.md recommending [@dev7a/otlp-stdout-span-exporter](https://www.npmjs.com/package/@dev7a/otlp-stdout-span-exporter) as an alternative solution with similar functionality
+- Added "deprecated" field to package.json
+- Updated package description to indicate deprecation 
+
 ## [0.3.0] - 2024-12-16
 
 ### Changed
@@ -13,4 +22,5 @@
 - Support for OTLP JSON and Protobuf formats
 - Environment variable configuration
 - Stdout transport implementation
-- AWS Lambda compatibility 
+- AWS Lambda compatibility
+

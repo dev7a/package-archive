@@ -1,4 +1,8 @@
-# lambda-otel-utils
+# [DEPRECATED] lambda-otel-utils
+
+> **IMPORTANT: This package is deprecated and no longer maintained.**
+> 
+> For similar functionality with an improved API, please consider using [lambda-otel-lite](https://crates.io/crates/lambda-otel-lite). While not a direct replacement (APIs differ), it solves the same problems with a more modern implementation.
 
 `lambda-otel-utils` is a Rust library that simplifies the integration of OpenTelemetry tracing and metrics with AWS Lambda functions. It provides utilities for setting up and configuring OpenTelemetry in serverless environments, making it easier to implement distributed tracing and metrics collection in your Lambda-based applications.
 

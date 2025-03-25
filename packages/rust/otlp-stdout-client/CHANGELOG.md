@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.4.1 (2025-03-25)
+
+### Deprecated
+
+- Package is now deprecated and will no longer be maintained
+- Added deprecation notice to README.md recommending [otlp-stdout-span-exporter](https://crates.io/crates/otlp-stdout-span-exporter) as an alternative solution with similar functionality
+- Updated package description to indicate deprecation
+
 ## [0.4.0] - 2025-03-22
 
 ### Changed
@@ -61,3 +69,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Configurable through standard OpenTelemetry environment variables
 - Support for both tracing and metrics (as optional features)
 - Local implementation of `LambdaResourceDetector` (temporary solution)
+

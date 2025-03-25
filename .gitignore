@@ -1,3 +1,15 @@
 # Rust
 */*/Cargo.lock
-**/target/ 
+**/target/
+
+# Python
+**/dist/
+**/*.egg-info/
+**/__pycache__/
+**/*.py[cod]
+**/*.so
+**/*.dylib
+
+# Node.js
+**/node_modules/
+**/package-lock.json 

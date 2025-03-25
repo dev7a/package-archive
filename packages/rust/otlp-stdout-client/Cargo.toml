@@ -1,10 +1,10 @@
 [package]
 name = "otlp-stdout-client"
 version = "0.4.1"
-edition.workspace = true
-authors.workspace = true
-license.workspace = true
-rust-version.workspace = true
+edition = "2021"
+authors = ["Alessandro Bologna <alessandro.bologna@gmail.com>"]
+license = "MIT"
+rust-version = "1.80"
 description = "OpenTelemetry OTLP stdout client (DEPRECATED)"
 repository = "https://github.com/dev7a/package-archive/tree/main/packages/rust/otlp-stdout-client"
 homepage = "https://github.com/dev7a/package-archive"
@@ -16,16 +16,16 @@ name = "stdout_export"
 path = "examples/stdout_export/main.rs"
 
 [dependencies]
-tokio.workspace = true
-opentelemetry.workspace = true
-opentelemetry_sdk.workspace = true
-opentelemetry-otlp.workspace = true
-opentelemetry-http.workspace = true
-http.workspace = true
-async-trait.workspace = true
-serde.workspace = true
-serde_json.workspace = true
-tracing.workspace = true
+tokio = { version = "1", features = ["full"] }
+opentelemetry = { version = "0.28.0", features = ["trace"] }
+opentelemetry_sdk = { version = "0.28.0", features = ["rt-tokio"] }
+opentelemetry-otlp = { version = "0.28.0", features = ["http-proto", "http-json", "reqwest-client"] }
+opentelemetry-http = { version = "0.28.0" }
+http = "1.1.0"
+async-trait = "0.1.82"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.133"
+tracing = { version = "0.1", features = ["log"] }
 base64 = "0.22.1"
 flate2 = "1.0.28"
 bytes = "1.5.0"
@@ -33,5 +33,5 @@ bytes = "1.5.0"
 [dev-dependencies]
 sealed_test = "1.1.0"   
 doc-comment = "0.3"
-futures.workspace = true
+futures = "0.3.31"
 
